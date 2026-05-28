@@ -16,16 +16,19 @@
 
     <nav id="navbar">
       <div class="logo">D<span>i</span>cent</div>
+      <div class="nav-right">
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#home" data-i18n="nav-home">Home</a></li>
+          <li><a href="#skills" data-i18n="nav-skills">Skills</a></li>
+          <li><a href="#projects" data-i18n="nav-projects">Projects</a></li>
+          <li><a href="#about" data-i18n="nav-about">About</a></li>
+          <li><a href="#contact" data-i18n="nav-contact">Contact</a></li>
+        </ul>
+        <button class="lang-toggle" id="langToggle" aria-label="Toggle language">ES</button>
+      </div>
       <button class="nav-hamburger" id="hamburger" aria-label="Menu">
         <span></span><span></span><span></span>
       </button>
-      <ul class="nav-links" id="navLinks">
-        <li><a href="#home">Home</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
     </nav>
 
     <!-- HERO -->
@@ -34,23 +37,23 @@
       <div class="hero-grid"></div>
 
       <div class="hero-content">
-        <div class="hero-tag">Available for work</div>
+        <div class="hero-tag" data-i18n="hero-tag">Available for work</div>
         <h1 class="hero-name">
           Ismael
           <span class="accent">Dicent.</span>
         </h1>
-        <p class="hero-role">
+        <p class="hero-role" data-i18n="hero-role">
           A passionate web developer from Santo Domingo, building modern digital
           experiences with clean code and thoughtful design.
         </p>
         <div class="hero-actions">
-          <a href="#contact" class="btn-primary">Get in touch</a>
-          <a href="#projects" class="btn-outline">View work</a>
+          <a href="#contact" class="btn-primary" data-i18n="hero-cta-contact">Get in touch</a>
+          <a href="#projects" class="btn-outline" data-i18n="hero-cta-projects">View work</a>
         </div>
       </div>
 
       <div class="scroll-hint">
-        <span>Scroll</span>
+        <span data-i18n="hero-scroll">Scroll</span>
         <div class="scroll-line"></div>
       </div>
     </section>
@@ -74,11 +77,11 @@
       </div>
 
       <div class="about-content">
-        <div class="section-tag reveal">About Me</div>
-        <h2 class="section-title reveal reveal-delay-1">
+        <div class="section-tag reveal" data-i18n="about-tag">About Me</div>
+        <h2 class="section-title reveal reveal-delay-1" data-i18n-html="about-title">
           Crafting the web,<br />one line at a time.
         </h2>
-        <p class="about-bio reveal reveal-delay-2">
+        <p class="about-bio reveal reveal-delay-2" data-i18n="about-bio">
           Hi, I'm Ismael David Dicent Lahoz — a 21-year-old software engineering
           student from Santo Domingo, Dominican Republic. I'm passionate about
           the entire world of web development and constantly learning through
@@ -86,28 +89,28 @@
         </p>
         <div class="about-grid reveal reveal-delay-3">
           <div class="about-item">
-            <div class="about-label">Full Name</div>
+            <div class="about-label" data-i18n="about-label-name">Full Name</div>
             <div class="about-value">Ismael David Dicent Lahoz</div>
           </div>
           <div class="about-item">
-            <div class="about-label">Age</div>
-            <div class="about-value">21 years old</div>
+            <div class="about-label" data-i18n="about-label-age">Age</div>
+            <div class="about-value" data-i18n="about-val-age">21 years old</div>
           </div>
           <div class="about-item">
-            <div class="about-label">Location</div>
+            <div class="about-label" data-i18n="about-label-location">Location</div>
             <div class="about-value">Santo Domingo, DR</div>
           </div>
           <div class="about-item">
-            <div class="about-label">Status</div>
-            <div class="about-value">Student & Developer</div>
+            <div class="about-label" data-i18n="about-label-status">Status</div>
+            <div class="about-value" data-i18n="about-val-status">Student & Developer</div>
           </div>
           <div class="about-item">
-            <div class="about-label">Hobbies</div>
-            <div class="about-value">Reading, Gym, Sports</div>
+            <div class="about-label" data-i18n="about-label-hobbies">Hobbies</div>
+            <div class="about-value" data-i18n="about-val-hobbies">Reading, Gym, Sports</div>
           </div>
           <div class="about-item">
-            <div class="about-label">Focus</div>
-            <div class="about-value">Web Development</div>
+            <div class="about-label" data-i18n="about-label-focus">Focus</div>
+            <div class="about-value" data-i18n="about-val-focus">Web Development</div>
           </div>
         </div>
       </div>
@@ -116,10 +119,10 @@
     <!-- SKILLS -->
     <section id="skills">
       <div class="skills-header">
-        <div class="section-tag reveal" style="justify-content: center">
+        <div class="section-tag reveal" style="justify-content: center" data-i18n="skills-tag">
           Skills
         </div>
-        <h2 class="section-title reveal reveal-delay-1">My Skill-Set</h2>
+        <h2 class="section-title reveal reveal-delay-1" data-i18n="skills-title">My Skill-Set</h2>
         <p
           class="reveal reveal-delay-2"
           style="
@@ -130,6 +133,7 @@
             margin-right: auto;
             line-height: 1.8;
           "
+          data-i18n="skills-desc"
         >
           Everything I know, learned through Udemy courses and college —
           constantly evolving.
@@ -570,8 +574,8 @@
     <section id="projects">
       <div class="projects-header">
         <div>
-          <div class="section-tag reveal">Work</div>
-          <h2 class="section-title reveal reveal-delay-1">My Projects</h2>
+          <div class="section-tag reveal" data-i18n="projects-tag">Work</div>
+          <h2 class="section-title reveal reveal-delay-1" data-i18n="projects-title">My Projects</h2>
         </div>
       </div>
 
@@ -586,12 +590,12 @@
           <div class="project-body">
             <div class="project-num">01</div>
             <div class="project-title">Recipes App</div>
-            <p class="project-desc">
+            <p class="project-desc" data-i18n="proj1-desc">
               Search any food recipe using a public API. Built entirely with
               Vanilla JavaScript — fast, clean, and functional.
             </p>
             <a href="#" class="project-link">
-              View Project
+              <span data-i18n="proj-view">View Project</span>
               <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
                 <path
                   d="M2 7H12M12 7L8 3M12 7L8 11"
@@ -614,12 +618,12 @@
           <div class="project-body">
             <div class="project-num">02</div>
             <div class="project-title">CalendarApp</div>
-            <p class="project-desc">
+            <p class="project-desc" data-i18n="proj2-desc">
               A full-stack calendar web app where you can schedule and manage
               your events. Built with React and Node.js.
             </p>
             <a href="#" class="project-link">
-              View Project
+              <span data-i18n="proj-view">View Project</span>
               <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
                 <path
                   d="M2 7H12M12 7L8 3M12 7L8 11"
@@ -642,12 +646,12 @@
           <div class="project-body">
             <div class="project-num">03</div>
             <div class="project-title">GifExpert App</div>
-            <p class="project-desc">
+            <p class="project-desc" data-i18n="proj3-desc">
               Search any kind of GIF via a public API. A React-powered
               application with a clean and intuitive interface.
             </p>
             <a href="#" class="project-link">
-              View Project
+              <span data-i18n="proj-view">View Project</span>
               <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
                 <path
                   d="M2 7H12M12 7L8 3M12 7L8 11"
@@ -665,12 +669,12 @@
     <!-- CONTACT -->
     <section id="contact">
       <div class="contact-bg"></div>
-      <div class="section-tag reveal" style="position: relative">Contact</div>
-      <h2 class="contact-title reveal reveal-delay-1">
+      <div class="section-tag reveal" style="position: relative" data-i18n="contact-tag">Contact</div>
+      <h2 class="contact-title reveal reveal-delay-1" data-i18n-html="contact-title">
         Let's work<br />
         <span class="outline-text">together.</span>
       </h2>
-      <p class="contact-subtitle reveal reveal-delay-2">
+      <p class="contact-subtitle reveal reveal-delay-2" data-i18n="contact-subtitle">
         Have a project in mind or just want to chat? Feel free to reach out —
         I'm always open to new opportunities.
       </p>
@@ -739,7 +743,7 @@
           GitHub
         </a>
       </div>
-      <div class="footer-copy">© 2025 Ismael Dicent. All rights reserved.</div>
+      <div class="footer-copy" data-i18n="footer-copy">© 2025 Ismael Dicent. All rights reserved.</div>
     </footer>
 
     <script src="index.js"></script>

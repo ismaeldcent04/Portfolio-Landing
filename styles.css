@@ -858,6 +858,35 @@ footer {
   color: #3fffa2;
 }
 
+/* NAV RIGHT WRAPPER */
+.nav-right {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 1.5rem;
+}
+
+/* LANGUAGE TOGGLE */
+.lang-toggle {
+  background: none;
+  border: 1px solid var(--border);
+  color: var(--muted);
+  font-family: "Syne", sans-serif;
+  font-weight: 700;
+  font-size: 0.75rem;
+  letter-spacing: 0.1em;
+  padding: 0.3rem 0.65rem;
+  border-radius: 4px;
+  cursor: none;
+  transition: color 0.2s, border-color 0.2s;
+  flex-shrink: 0;
+}
+.lang-toggle:hover {
+  color: var(--mint);
+  border-color: var(--mint);
+}
+
 /* HAMBURGER */
 .nav-hamburger {
   display: none;
