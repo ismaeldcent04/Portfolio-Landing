@@ -36,6 +36,9 @@ const translations = {
     'contact-tag': 'Contact',
     'contact-title': 'Let\'s work<br><span class="outline-text">together.</span>',
     'contact-subtitle': "Have a project in mind or just want to chat? Feel free to reach out — I'm always open to new opportunities.",
+    'stat-projects': 'Projects',
+    'stat-tech': 'Technologies',
+    'stat-years': 'Years Learning',
     'footer-copy': '© 2025 Ismael Dicent. All rights reserved.',
   },
   es: {
@@ -74,6 +77,9 @@ const translations = {
     'contact-tag': 'Contacto',
     'contact-title': 'Trabajemos<br><span class="outline-text">juntos.</span>',
     'contact-subtitle': '¿Tienes un proyecto en mente o simplemente quieres charlar? No dudes en escribirme — siempre estoy abierto a nuevas oportunidades.',
+    'stat-projects': 'Proyectos',
+    'stat-tech': 'Tecnologías',
+    'stat-years': 'Años Aprendiendo',
     'footer-copy': '© 2025 Ismael Dicent. Todos los derechos reservados.',
   },
 };

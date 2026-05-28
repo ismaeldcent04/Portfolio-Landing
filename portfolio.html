@@ -50,6 +50,38 @@
           <a href="#contact" class="btn-primary" data-i18n="hero-cta-contact">Get in touch</a>
           <a href="#projects" class="btn-outline" data-i18n="hero-cta-projects">View work</a>
         </div>
+
+        <div class="hero-stats">
+          <div class="hero-stat">
+            <span class="hero-stat-num">3+</span>
+            <span class="hero-stat-label" data-i18n="stat-projects">Projects</span>
+          </div>
+          <div class="hero-stat-div"></div>
+          <div class="hero-stat">
+            <span class="hero-stat-num">9+</span>
+            <span class="hero-stat-label" data-i18n="stat-tech">Technologies</span>
+          </div>
+          <div class="hero-stat-div"></div>
+          <div class="hero-stat">
+            <span class="hero-stat-num">2+</span>
+            <span class="hero-stat-label" data-i18n="stat-years">Years Learning</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-float-card">
+        <div class="hfc-dots">
+          <span class="hfc-dot red"></span>
+          <span class="hfc-dot yellow"></span>
+          <span class="hfc-dot green"></span>
+        </div>
+        <div class="hfc-line"><span class="hfc-comment">// developer.js</span></div>
+        <div class="hfc-line"><span class="hfc-keyword">const</span> <span class="hfc-var">dev</span> = {</div>
+        <div class="hfc-line hfc-indent"><span class="hfc-key">name</span>: <span class="hfc-str">'Ismael Dicent'</span>,</div>
+        <div class="hfc-line hfc-indent"><span class="hfc-key">role</span>: <span class="hfc-str">'Web Developer'</span>,</div>
+        <div class="hfc-line hfc-indent"><span class="hfc-key">location</span>: <span class="hfc-str">'Santo Domingo'</span>,</div>
+        <div class="hfc-line hfc-indent"><span class="hfc-key">available</span>: <span class="hfc-bool">true</span>,</div>
+        <div class="hfc-line">};<span class="hfc-cursor"></span></div>
       </div>
 
       <div class="scroll-hint">
@@ -147,71 +179,33 @@
         <!-- C# -->
         <div class="skill-card reveal">
           <div class="skill-icon">
-            <svg
-              viewBox="0 0 50 50"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M25 4L44 15V35L25 46L6 35V15L25 4Z"
-                fill="rgba(63,255,162,0.1)"
-                stroke="#3fffa2"
-                stroke-width="1.5"
-              />
-              <text
-                x="25"
-                y="32"
-                text-anchor="middle"
-                font-family="Syne,sans-serif"
-                font-weight="800"
-                font-size="15"
-                fill="#3fffa2"
-              >
-                C#
-              </text>
+            <svg viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M25 4L44 15V35L25 46L6 35V15L25 4Z" fill="rgba(63,255,162,0.1)" stroke="#3fffa2" stroke-width="1.5"/>
+              <text x="25" y="32" text-anchor="middle" font-family="Syne,sans-serif" font-weight="800" font-size="15" fill="#3fffa2">C#</text>
             </svg>
           </div>
           <div class="skill-name">C#</div>
-          <div class="skill-bar-track">
-            <div class="skill-bar-fill" style="width: 88%"></div>
+          <div class="skill-bar-wrapper">
+            <div class="skill-bar-meta"><span class="skill-pct">88%</span></div>
+            <div class="skill-bar-track"><div class="skill-bar-fill" style="width: 88%"></div></div>
           </div>
+          <div class="skill-watermark">88</div>
         </div>
 
         <!-- JavaScript -->
         <div class="skill-card reveal reveal-delay-1">
           <div class="skill-icon">
-            <svg
-              viewBox="0 0 50 50"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <rect
-                x="4"
-                y="4"
-                width="42"
-                height="42"
-                rx="4"
-                fill="rgba(63,255,162,0.1)"
-                stroke="#3fffa2"
-                stroke-width="1.5"
-              />
-              <text
-                x="27"
-                y="35"
-                text-anchor="middle"
-                font-family="Syne,sans-serif"
-                font-weight="800"
-                font-size="18"
-                fill="#3fffa2"
-              >
-                JS
-              </text>
+            <svg viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="4" y="4" width="42" height="42" rx="4" fill="rgba(63,255,162,0.1)" stroke="#3fffa2" stroke-width="1.5"/>
+              <text x="27" y="35" text-anchor="middle" font-family="Syne,sans-serif" font-weight="800" font-size="18" fill="#3fffa2">JS</text>
             </svg>
           </div>
           <div class="skill-name">JavaScript</div>
-          <div class="skill-bar-track">
-            <div class="skill-bar-fill" style="width: 85%"></div>
+          <div class="skill-bar-wrapper">
+            <div class="skill-bar-meta"><span class="skill-pct">85%</span></div>
+            <div class="skill-bar-track"><div class="skill-bar-fill" style="width: 85%"></div></div>
           </div>
+          <div class="skill-watermark">85</div>
         </div>
 
         <!-- React -->
@@ -252,9 +246,11 @@
             </svg>
           </div>
           <div class="skill-name">React</div>
-          <div class="skill-bar-track">
-            <div class="skill-bar-fill" style="width: 82%"></div>
+          <div class="skill-bar-wrapper">
+            <div class="skill-bar-meta"><span class="skill-pct">82%</span></div>
+            <div class="skill-bar-track"><div class="skill-bar-fill" style="width: 82%"></div></div>
           </div>
+          <div class="skill-watermark">82</div>
         </div>
 
         <!-- React Native -->
@@ -308,9 +304,11 @@
             </svg>
           </div>
           <div class="skill-name">React Native</div>
-          <div class="skill-bar-track">
-            <div class="skill-bar-fill" style="width: 75%"></div>
+          <div class="skill-bar-wrapper">
+            <div class="skill-bar-meta"><span class="skill-pct">75%</span></div>
+            <div class="skill-bar-track"><div class="skill-bar-fill" style="width: 75%"></div></div>
           </div>
+          <div class="skill-watermark">75</div>
         </div>
 
         <!-- REST API -->
@@ -358,9 +356,11 @@
             </svg>
           </div>
           <div class="skill-name">REST API</div>
-          <div class="skill-bar-track">
-            <div class="skill-bar-fill" style="width: 83%"></div>
+          <div class="skill-bar-wrapper">
+            <div class="skill-bar-meta"><span class="skill-pct">83%</span></div>
+            <div class="skill-bar-track"><div class="skill-bar-fill" style="width: 83%"></div></div>
           </div>
+          <div class="skill-watermark">83</div>
         </div>
 
         <!-- SQL -->
@@ -393,9 +393,11 @@
             </svg>
           </div>
           <div class="skill-name">SQL</div>
-          <div class="skill-bar-track">
-            <div class="skill-bar-fill" style="width: 80%"></div>
+          <div class="skill-bar-wrapper">
+            <div class="skill-bar-meta"><span class="skill-pct">80%</span></div>
+            <div class="skill-bar-track"><div class="skill-bar-fill" style="width: 80%"></div></div>
           </div>
+          <div class="skill-watermark">80</div>
         </div>
 
         <!-- Tailwind -->
@@ -422,9 +424,11 @@
             </svg>
           </div>
           <div class="skill-name">Tailwind CSS</div>
-          <div class="skill-bar-track">
-            <div class="skill-bar-fill" style="width: 87%"></div>
+          <div class="skill-bar-wrapper">
+            <div class="skill-bar-meta"><span class="skill-pct">87%</span></div>
+            <div class="skill-bar-track"><div class="skill-bar-fill" style="width: 87%"></div></div>
           </div>
+          <div class="skill-watermark">87</div>
         </div>
 
         <!-- N8N -->
@@ -499,9 +503,11 @@
             </svg>
           </div>
           <div class="skill-name">N8N</div>
-          <div class="skill-bar-track">
-            <div class="skill-bar-fill" style="width: 72%"></div>
+          <div class="skill-bar-wrapper">
+            <div class="skill-bar-meta"><span class="skill-pct">72%</span></div>
+            <div class="skill-bar-track"><div class="skill-bar-fill" style="width: 72%"></div></div>
           </div>
+          <div class="skill-watermark">72</div>
         </div>
 
         <!-- XAF DevExpress -->
@@ -563,9 +569,11 @@
             </svg>
           </div>
           <div class="skill-name">XAF DevExpress</div>
-          <div class="skill-bar-track">
-            <div class="skill-bar-fill" style="width: 70%"></div>
+          <div class="skill-bar-wrapper">
+            <div class="skill-bar-meta"><span class="skill-pct">70%</span></div>
+            <div class="skill-bar-track"><div class="skill-bar-fill" style="width: 70%"></div></div>
           </div>
+          <div class="skill-watermark">70</div>
         </div>
       </div>
     </section>
@@ -583,7 +591,10 @@
         <div class="project-card reveal">
           <div class="project-thumb">
             <div class="project-thumb-inner">
-              🍴
+              <div class="project-thumb-title">Recipes</div>
+              <svg class="project-thumb-svg" width="72" height="72" viewBox="0 0 72 72" fill="none">
+                <path d="M28 8V36M28 36C28 44 22 48 16 48V64M40 8V28L43 34V64M16 8V22C16 30 28 32 28 32" stroke="#3fffa2" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
               <span class="tag-tech">Vanilla JS</span>
             </div>
           </div>
@@ -610,8 +621,19 @@
 
         <div class="project-card reveal reveal-delay-1">
           <div class="project-thumb">
-            <div class="project-thumb-inner" style="font-size: 2rem">
-              📅
+            <div class="project-thumb-inner">
+              <div class="project-thumb-title">Calendar</div>
+              <svg class="project-thumb-svg" width="72" height="72" viewBox="0 0 72 72" fill="none">
+                <rect x="8" y="14" width="56" height="50" rx="6" stroke="#3fffa2" stroke-width="2"/>
+                <path d="M8 28H64" stroke="#3fffa2" stroke-width="2"/>
+                <line x1="24" y1="8" x2="24" y2="20" stroke="#3fffa2" stroke-width="2.5" stroke-linecap="round"/>
+                <line x1="48" y1="8" x2="48" y2="20" stroke="#3fffa2" stroke-width="2.5" stroke-linecap="round"/>
+                <rect x="18" y="36" width="10" height="10" rx="2" fill="rgba(63,255,162,0.4)"/>
+                <rect x="31" y="36" width="10" height="10" rx="2" fill="rgba(63,255,162,0.2)"/>
+                <rect x="44" y="36" width="10" height="10" rx="2" fill="rgba(63,255,162,0.2)"/>
+                <rect x="18" y="50" width="10" height="8" rx="2" fill="rgba(63,255,162,0.2)"/>
+                <rect x="31" y="50" width="10" height="8" rx="2" fill="rgba(63,255,162,0.3)"/>
+              </svg>
               <span class="tag-tech">React + Node</span>
             </div>
           </div>
@@ -638,8 +660,17 @@
 
         <div class="project-card reveal reveal-delay-2">
           <div class="project-thumb">
-            <div class="project-thumb-inner" style="font-size: 2rem">
-              🎬
+            <div class="project-thumb-inner">
+              <div class="project-thumb-title">GifExpert</div>
+              <svg class="project-thumb-svg" width="72" height="72" viewBox="0 0 72 72" fill="none">
+                <rect x="6" y="14" width="60" height="44" rx="6" stroke="#3fffa2" stroke-width="2"/>
+                <path d="M29 28L50 36L29 44V28Z" fill="rgba(63,255,162,0.3)" stroke="#3fffa2" stroke-width="1.5" stroke-linejoin="round"/>
+                <rect x="6" y="8" width="8" height="6" rx="1" fill="rgba(63,255,162,0.3)"/>
+                <rect x="17" y="8" width="8" height="6" rx="1" fill="rgba(63,255,162,0.2)"/>
+                <rect x="28" y="8" width="8" height="6" rx="1" fill="rgba(63,255,162,0.2)"/>
+                <rect x="39" y="8" width="8" height="6" rx="1" fill="rgba(63,255,162,0.3)"/>
+                <rect x="50" y="8" width="8" height="6" rx="1" fill="rgba(63,255,162,0.2)"/>
+              </svg>
               <span class="tag-tech">React.js</span>
             </div>
           </div>
@@ -678,9 +709,33 @@
         Have a project in mind or just want to chat? Feel free to reach out —
         I'm always open to new opportunities.
       </p>
+      <div class="contact-socials reveal reveal-delay-3">
+        <a href="#" class="contact-social-btn">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+            <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/>
+          </svg>
+          GitHub
+        </a>
+        <a href="#" class="contact-social-btn">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+            <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/>
+            <rect x="2" y="9" width="4" height="12"/>
+            <circle cx="4" cy="4" r="2"/>
+          </svg>
+          LinkedIn
+        </a>
+        <a href="#" class="contact-social-btn">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+            <rect x="2" y="2" width="20" height="20" rx="5"/>
+            <circle cx="12" cy="12" r="4"/>
+            <circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/>
+          </svg>
+          Instagram
+        </a>
+      </div>
       <a
         href="mailto:ismael@dicent.dev"
-        class="contact-email reveal reveal-delay-3"
+        class="contact-email reveal reveal-delay-4"
         >ismael@dicent.dev</a
       >
     </section>
